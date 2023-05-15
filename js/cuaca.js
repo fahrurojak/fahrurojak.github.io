@@ -13,7 +13,7 @@ humidity = weatherPart.querySelector('.humidity .deg span'),
 wind = weatherPart.querySelector('.wind .deg span'),
 img = weatherPart.querySelector('img'),
 backArrow = wrapper.querySelector('header i'),
-apiKey = '****************'; //ganti dengan API key kamu
+apiKey = '9c305f281819dc415801e2e815b060e4'; //ganti dengan API key kamu
 
 // function requwst ke API
 function requestAPI(url) {

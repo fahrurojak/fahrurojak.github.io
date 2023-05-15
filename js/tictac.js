@@ -221,19 +221,5 @@ let handlePlayAgain = () => {
     handleStart()
 }
 
-let handleRestart = () => {
-    gameActive = true
-    currentPlayer = 'X'
-    counter = 0
-    countField.innerHTML = '0'
-    statusDisplay.innerHTML = ''
-    statusDisplay.style.color = 'black'
-    player1.style.background = player2.style.background = '#d0bdf4'
-    player1_name.value = player2_name.value = ''
-    player1.innerHTML = player2.innerHTML = '-'
-    startBox.className = 'sidebar'
-    playField.removeChild(document.getElementById('container'))
-}
-
 document.querySelector('#start').addEventListener('click', handleStart)
 document.querySelector('#playAgain').addEventListener('click', handlePlayAgain)
